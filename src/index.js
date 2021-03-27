@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import axios from 'axios';
 import './index.css';
 import App from './App';
+import StudentList from './StudentList';
+import Create from './Create';
+import Edit from './Edit';
 import reportWebVitals from './reportWebVitals';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StudentList />
   </React.StrictMode>,
   document.getElementById('root')
 );
